@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+.headerTag {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F6;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-weight: bolder;
+    color: grey;
+}
+
+.headerCenter {
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+ul li:first-child{
+    color: black;
+}
+
+li {
+    margin: 20px;
+}
+
+img {
+    width: 90px;
+    margin-left: 100px;
+}
+
+.headerRight {
+    margin-right: 102px;
+}
+
+button {
+    width: 58px;
+    height: 38px;
+    background-color: white;
+    border-radius: 5px;
+    border: #F5F5F6;
+}
+
+/* Botttom Hisse */
+
+h1 {
+    display: flex;
+    margin: 150px 0 0 430px;
+}
+
+.bodyBottom {
+    display: flex;
+    margin: 30px 0 0 300px;
+    height: 30vh;
+}
+
+/* BottomLeft */
+
+.ulBottomLeft {
+    margin: 0px;
+    padding: 0px;
+    width: 260px;
+}
+
+.ulBottomLeft li {
+    color: #C6C6C6;
+    padding: 10px;
+    border: 1px solid #9F9F9F;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.ulBottomLeft li:first-child,
+.ulBottomRight li:first-child{
+    border-radius: 8px 0 0 8px;
+}
+
+.bodyBottomLeftTopTop {
+    margin-bottom: 15px;
+}
+
+.leftInput input {
+    margin: 11px 0 0 14px;
+    height: 49px;
+    width: 197px;
+    border-color: white;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.bodyBottomLeftBottom {
+    margin-top: 20px;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+}
+
+.infoLeft p {
+    margin: 20px 0 5px 16px;
+}
+
+/* bodyBottomRight */
+
+.bodyBottomRight {
+    margin-left: 137px;
+}
+
+.ulBottomRight {
+    margin: 0px;
+    padding: 0px;
+    width: 260px;
+}
+
+.ulBottomRight li {
+    color: #C6C6C6;
+    padding: 10px;
+    border: 1px solid #9F9F9F;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.ulBottomLeft li:last-child,
+.ulBottomRight li:last-child{
+    border-radius: 0 8px 8px 0;
+}
+
+.bodyBottomRightTopTop {
+    margin-bottom: 15px;
+}
+
+.rightInput p {
+    margin-top: 11px;
+    width: auto;
+    margin-left: 14px;
+    height: 49px;
+    border-color: none;
+    border: none;
+    font-size: 35px;
+}
+
+.bodyBottomRightBottom {
+    margin-top: 20px;
+    width: auto;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+}
+
+.infoRight p {
+    margin: 20px 0 5px 16px;
+}
